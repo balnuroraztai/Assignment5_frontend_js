@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7 - Calculator</title>
+    <link rel="stylesheet" href="task7.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">JavaScript Basics</a>
+
+        <div class="nav-links">
+            <a href="index.html">Task 0</a>
+            <a href="task1.html">Task 1</a>
+            <a href="task2.html">Task 2</a>
+            <a href="task3.html">Task 3</a>
+            <a href="task4.html">Task 4</a>
+            <a href="task5.html">Task 5</a>
+            <a href="task6.html">Task 6</a>
+            <a href="task7.html" class="active">Task 7</a>
+            <a href="task8.html">Task 8</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Simple Calculator</h1>
+        <h2>Task 7 - JavaScript Basics</h2>
+
+        <p class="description">
+            Enter two numbers and select an arithmetic operation.
+        </p>
+
+        <div class="calculator">
+            <div class="input-group">
+                <label for="num1">First Number</label>
+                <input type="number" id="num1" placeholder="Enter first number">
+            </div>
+
+            <div class="input-group">
+                <label for="num2">Second Number</label>
+                <input type="number" id="num2" placeholder="Enter second number">
+            </div>
+
+            <div class="buttons">
+                <button id="addBtn">+</button>
+                <button id="subtractBtn">−</button>
+                <button id="multiplyBtn">×</button>
+                <button id="divideBtn">÷</button>
+            </div>
+
+            <div class="result-box">
+                <h3>Result</h3>
+                <p id="result">0</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="task7.js"></script>
+</body>
+</html>

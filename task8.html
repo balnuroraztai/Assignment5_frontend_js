@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8 - To-Do List</title>
+    <link rel="stylesheet" href="task8.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">JavaScript Basics</a>
+
+        <div class="nav-links">
+            <a href="index.html">Task 0</a>
+            <a href="task1.html">Task 1</a>
+            <a href="task2.html">Task 2</a>
+            <a href="task3.html">Task 3</a>
+            <a href="task4.html">Task 4</a>
+            <a href="task5.html">Task 5</a>
+            <a href="task6.html">Task 6</a>
+            <a href="task7.html">Task 7</a>
+            <a href="task8.html" class="active">Task 8</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Interactive To-Do List</h1>
+        <p class="subtitle">Task 8 - Mini Project</p>
+
+        <div class="todo-container">
+            <section class="todo-list-section">
+                <h2>To-do list</h2>
+
+                <div id="taskList"></div>
+
+                <p id="taskCount">0 tasks remaining</p>
+            </section>
+
+            <section class="add-task-section">
+                <h2>Add new task</h2>
+
+                <form id="taskForm">
+                    <label for="taskTitle">* Title</label>
+                    <input
+                        type="text"
+                        id="taskTitle"
+                        placeholder="Enter task title"
+                        required
+                    >
+
+                    <label for="taskDescription">
+                        * Description
+                    </label>
+                    <textarea
+                        id="taskDescription"
+                        placeholder="Enter task description"
+                        required
+                    ></textarea>
+
+                    <button type="submit" id="addBtn">
+                        Add task
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="task8.js"></script>
+</body>
+</html>
